@@ -103,14 +103,14 @@ export default function Home() {
       <svg className="bg-transparent absolute" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3f3f46" fill-opacity="1" d="M0,32L80,26.7C160,21,320,11,480,26.7C640,43,800,85,960,90.7C1120,96,1280,64,1360,48L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
       {/* Shopping Cart Section */}
       <section className="pt-16 bg-white dark:bg-zinc-950 min-h-screen flex justify-center">
-        <div className="dark: bg-zinc-950 w-full py-8">
+        <div className="bg-white dark:bg-zinc-950 w-full py-8">
           <div className="container mx-auto px-4">
           <h1 className={`max-w-2xl mb-12 text-4xl tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white ${styles.slogan}`}>
               Donate
             </h1>
             <div className="flex flex-col md:flex-row gap-4 relative">
               <div className="md:w-3/4">
-                <div className="bg-zinc-800 rounded-lg shadow-md p-6 mb-4">
+                <div className="bg-zinc-300 dark:bg-zinc-700 rounded-lg shadow-md p-6 mb-4">
                   <table className="w-full">
                     {/* <thead>
                       <tr>
@@ -213,7 +213,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="md:w-1/4 relative">
-                <div className="bg-zinc-800 rounded-lg shadow-md p-6">
+                <div className="bg-zinc-300 dark:bg-zinc-700 rounded-lg shadow-md p-6">
                   <h2 className="text-lg font-semibold mb-4">Summary</h2>
                   <div className="flex justify-between mb-2">
                     <span>Subtotal</span>
